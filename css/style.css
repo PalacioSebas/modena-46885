@@ -374,6 +374,15 @@ header nav img{
     }
 }
 
+@media (min-width:100px) and (max-width:666px){
+    .hero h2{
+       font-size: 30px;
+    }
+    .after-hero{
+        font-size: 10px;
+    }
+}
+
 
 /*!------------FOOTER----------------*/
 
