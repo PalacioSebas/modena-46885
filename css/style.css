@@ -85,21 +85,18 @@ header nav img {
 .hero .after-hero {
   background-color: rgba(0, 0, 0, 0.445);
   color: white;
+  font-style: italic;
 }
 
-.hero a {
+/* .hero a {
   text-decoration: none;
   color: white;
   background-color: black;
   padding: 10px;
   font-size: 20px;
   /* border: 2px solid red; */
-  border-radius: 15px;
-}
-
-.hero p {
-  font-style: italic;
-}
+/* border-radius: 15px;
+} */
 
 .bienvenidos {
   display: flex;

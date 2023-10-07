@@ -1,0 +1,96 @@
+.hero {
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  display: flexbox;
+  color: black;
+  /*background-position: ;   */
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("../img/banner2.jpg"); }
+  .hero h2 {
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.445); }
+  .hero .after-hero {
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    font-style: italic; }
+
+.logo {
+  width: 70px;
+  height: 70px; }
+
+.container-fluid div ul li a {
+  color: white; }
+
+.container-fluid div ul li a:hover {
+  color: aqua; }
+
+.d-flex button {
+  color: aqua; }
+
+.productos {
+  text-align: center;
+  color: white;
+  background-color: #b08968;
+  font-size: 30px;
+  /* padding: 10px; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  .productos div:hover {
+    box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75); }
+  .productos .tarjeta {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px #00000052;
+    border-radius: 10px; }
+    .productos .tarjeta img {
+      width: 250px;
+      /*ancho*/
+      height: 250px;
+      /*alto*/
+      border-radius: 10px 10px 0px 0px; }
+    .productos .tarjeta h5 {
+      color: black; }
+    .productos .tarjeta a {
+      display: block;
+      width: 80%;
+      margin: 0% 10% 2%;
+      text-decoration: none; }
+      .productos .tarjeta a div {
+        background-color: #ececec;
+        width: 100%;
+        border-radius: 10px;
+        padding: 2%; }
+        .productos .tarjeta a div p {
+          font-size: 20px; }
+
+.bienvenidos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .bienvenidos div {
+    width: 50%;
+    margin: 50px; }
+    .bienvenidos div h2 {
+      font-size: 35px; }
+    .bienvenidos div p {
+      font-size: 20px; }
+
+.pie-index footer {
+  background-color: #dfa878; }
+  .pie-index footer h4 {
+    color: black;
+    font-size: 30px;
+    padding: 5px; }
+  .pie-index footer div a img {
+    width: 3%;
+    display: inline-block; }
