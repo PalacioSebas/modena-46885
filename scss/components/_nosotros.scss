@@ -1,0 +1,38 @@
+.carousel-inner div img {
+  width: 1600px;
+  height: 340px;
+  object-fit: cover;
+}
+.mapa {
+  background-image: url("../img/neon-1.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.mapa div {
+  width: 50%;
+  margin: 50px;
+}
+
+.mapa div h2 {
+  font-size: 35px;
+  color: white;
+}
+
+.mapa div p {
+  font-size: 20px;
+}
+
+.mapa p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.363);
+  display: block;
+}
+.mapa iframe {
+  width: 400px;
+  height: 400px;
+  background-attachment: fixed;
+  display: flex;
+}
