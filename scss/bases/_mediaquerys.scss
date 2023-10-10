@@ -60,7 +60,7 @@
 
 @media (min-width: 100px) and (max-width: 820px) {
   .hero h2 {
-    font-size: 30px;
+    font-size: 30px; 
   }
   .after-hero {
     font-size: 10px;
@@ -75,3 +75,68 @@
     font-size: 10px;
   }
 }
+
+
+@media (min-width: 980px) and (max-width: 1560px) {
+
+  .Contacto h2{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 980px) {
+
+  .Contacto h2{
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 750px) {
+
+  .Contacto h2{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 750px) {
+  .recibir {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+}
+
+@media (min-width: 750px) and (max-width: 1090px) {
+  .recibir {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (max-width: 1050px) {
+  .mapa div div h3{
+    font-size: 17px;
+  }
+.mapa div h2{
+  font-size: 25px;
+}
+  
+.mapa div p {
+  font-size: 10px;
+}
+.mapa iframe {
+  width: 300px;
+  height: 300px;
+  background-attachment: fixed;
+  display: flex;
+
+}
+
+}
+
+

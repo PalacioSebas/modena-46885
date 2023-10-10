@@ -58,7 +58,7 @@ header {
   font-size: 30px;
   padding-bottom: 8px;
   /* padding: 10px; */ }
-  .productos div h5 {
+  .productos div h3 {
     color: black; }
   .productos div img {
     width: 250px;
@@ -131,7 +131,7 @@ header {
     width: 300px;
     position: relative;
     padding: 0; }
-    .galeria div h5 {
+    .galeria div h3 {
       position: absolute;
       bottom: 0;
       background-color: rgba(0, 0, 0, 0.26);
@@ -195,6 +195,14 @@ header {
     width: 100%;
     padding: 5px; }
 
+.grid-item:hover {
+  box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+  transition: 400ms;
+  transform: scale(1.05);
+  transition-duration: 400ms; }
+
 .cuadrado:hover {
   transition: 800ms;
   transform: scale(1.05);
@@ -242,7 +250,6 @@ footer {
 
 .mapa p {
   color: white;
-  background-color: rgba(0, 0, 0, 0.363);
   display: block; }
 
 .mapa iframe {
@@ -324,3 +331,42 @@ footer {
     font-size: 40px; }
   .after-hero {
     font-size: 10px; } }
+
+@media (min-width: 980px) and (max-width: 1560px) {
+  .Contacto h2 {
+    font-size: 20px; } }
+
+@media (min-width: 750px) and (max-width: 980px) {
+  .Contacto h2 {
+    font-size: 15px; } }
+
+@media (min-width: 100px) and (max-width: 750px) {
+  .Contacto h2 {
+    font-size: 12px; } }
+
+@media (min-width: 100px) and (max-width: 750px) {
+  .recibir {
+    display: flex;
+    flex-direction: column;
+    text-align: center; } }
+
+@media (min-width: 750px) and (max-width: 1090px) {
+  .recibir {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+    text-align: center; } }
+
+@media screen and (max-width: 1050px) {
+  .mapa div div h3 {
+    font-size: 17px; }
+  .mapa div h2 {
+    font-size: 25px; }
+  .mapa div p {
+    font-size: 10px; }
+  .mapa iframe {
+    width: 300px;
+    height: 300px;
+    background-attachment: fixed;
+    display: flex; } }

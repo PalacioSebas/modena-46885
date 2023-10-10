@@ -34,7 +34,7 @@
   padding-bottom: 8px;
   /* padding: 10px; */
   div {
-    h5 {
+    h3 {
       color: black;
     }
     img {
@@ -119,7 +119,7 @@
     width: 300px;
     position: relative;
     padding: 0;
-    h5 {
+    h3 {
       position: absolute;
       bottom: 0;
       background-color: rgba(0, 0, 0, 0.26);
@@ -197,6 +197,15 @@
     padding: 5px;
   }
 }
+.grid-item:hover{
+  box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+  transition: 400ms;
+  transform: scale(1.05);
+  transition-duration: 400ms;
+}
+
 .cuadrado:hover{
 transition: 800ms;
 transform: scale(1.05);
