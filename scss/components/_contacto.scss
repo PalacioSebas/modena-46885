@@ -7,17 +7,13 @@
   /*background-position: ;   */
   background-attachment: fixed;
   background-size: cover;
-  background-image: url("../img/neon-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)),url("../img/neon-1.jpg");
 }
 .hero-contacto .Contacto h2 {
-  background-color: rgba(0, 0, 0, 0.479);
   color: rgb(235, 28, 166);
   margin: 0px;
 }
 
-.hero-contacto div {
-  background-color: rgba(0, 0, 0, 0.623);
-}
 .recibir {
   display: flexbox;
   text-align: center;
