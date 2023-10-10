@@ -1,0 +1,206 @@
+.hero {
+  width: 100%;
+  height: calc(100vh - 86px);
+  text-align: center;
+  display: flexbox;
+  color: black;
+  /*background-position: ;   */
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url("../img/banner2.jpg");
+  h2 {
+    font-size: 60px;
+    color: white;
+    padding: 20px;
+    // background-color: rgba(0, 0, 0, 0.445);
+  }
+  .after-hero {
+    // background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    font-style: italic;
+  }
+}
+.productos-destacados {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.productos {
+  text-align: center;
+  color: white;
+  background-color: $color-main;
+  font-size: 30px;
+  padding-bottom: 8px;
+  /* padding: 10px; */
+  div {
+    h5 {
+      color: black;
+    }
+    img {
+      width: 250px; /*ancho*/
+      height: 250px; /*alto*/
+      border-radius: 10px 10px 0px 0px;
+    }
+  }
+  .tarjeta:hover {
+    box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+    transition: 400ms;
+    transform: scale(1.05);
+    transition-duration: 400ms;
+  }
+}
+
+.bienvenidos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    width: 50%;
+    margin: 50px;
+    h2 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+.tarjeta {
+  width: 250px;
+  height: 350px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px #00000052;
+  border-radius: 10px;
+  img {
+    width: 250px; /*ancho*/
+    height: 250px; /*alto*/
+    border-radius: 10px 10px 0px 0px;
+  }
+  h5 {
+    color: black;
+  }
+  a {
+    display: block;
+    width: 80%;
+    margin: 0% 10% 2%;
+    text-decoration: none;
+    div {
+      background-color: #ececec;
+      width: 100%;
+      border-radius: 10px;
+      padding: 2%;
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+
+.fixed {
+  position: fixed;
+}
+
+.galeria {
+  text-align: center;
+  color: white;
+  background-color: $color-galeria;
+  font-size: 30px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  div {
+    width: 300px;
+    position: relative;
+    padding: 0;
+    h5 {
+      position: absolute;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.26);
+      width: 100%;
+      color: white;
+      text-align: center;
+      margin: 0; /* Agregar esta línea para eliminar el margen */
+      font-size: 23px;
+    }
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+    }
+  }
+  .fila {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+    div {
+      width: 30%;
+      position: relative;
+      padding: 0;
+      text-align: center;
+    }
+  }
+}
+
+.Acondicionamiento {
+  font-size: 30px;
+  background-color: $color-galeria;
+  text-align: center;
+  color: black;
+  p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+
+.grid-galeria {
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 15px;
+  div {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+    }
+
+    .img-4 {
+      grid-column: span 2;
+    }
+    .img-6 {
+      grid-row: span 2;
+    }
+  }
+}
+.grid-item {
+  position: relative;
+  h3 {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 100%;
+    padding: 5px;
+  }
+}
+.cuadrado:hover{
+transition: 800ms;
+transform: scale(1.05);
+box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 9px 11px 90px -14px rgba(0, 0, 0, 0.75);
+}

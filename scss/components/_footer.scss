@@ -1,0 +1,18 @@
+footer {
+  background-color: $color-footer;
+  h4 {
+    color: black;
+    font-size: 30px;
+    padding: 5px;
+  }
+}
+
+.pie footer div a img {
+  width: 3%;
+  display: inline-block;
+}
+
+.pie footer div a img:hover{
+  transform: rotateZ(360deg);
+  transition: 2s;
+}
